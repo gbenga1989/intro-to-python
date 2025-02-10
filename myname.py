@@ -84,3 +84,17 @@ print(quotient)
 remainder = 2 % 2
 print(remainder)
 
+# To create a list without square bracket list()
+
+my_list = [1, 2, 3, 4, 5]
+
+my_list = [1.3, 3.5, 7.8]
+
+string_list = [ "apple", "orange", "pawpaw"]
+
+mised_list = [10, "rice", 3.142, true]
+
+empty_list =[]
+
+
+my_info = ["bulls eye", ["fish"], list(3.142)]
