@@ -100,23 +100,23 @@ print(remainder)
 # my_info = ["bulls eye", ["fish"], list(3.142)]
 
 
-fruits = [ "apple", "banana", "cherry"]
-print(fruits[0])
+# fruits = [ "apple", "banana", "cherry"]
+# print(fruits[0])
 
-string_list = [ "apple", "orange", "pawpaw"]
-print(string_list[0])
-print(string_list[-2])
+# string_list = [ "apple", "orange", "pawpaw"]
+# print(string_list[0])
+# print(string_list[-2])
 
-my_list = [1.3, 3.5, 7.8]
-print(my_list[0])
-print(my_list[1])
-print(my_list[-2])
-print(my_list[-1])
+# my_list = [1.3, 3.5, 7.8]
+# print(my_list[0])
+# print(my_list[1])
+# print(my_list[-2])
+# print(my_list[-1])
 
-numbers = [0, 1,2,3,4, 5, 6, 7, 8]
-print(numbers[2:5])
-print(numbers[:5])
-print(numbers[::2]) (every secibd element)
+# numbers = [0, 1,2,3,4, 5, 6, 7, 8]
+# print(numbers[2:5])
+# print(numbers[:5])
+# print(numbers[::2]) (every secibd element)
 
 
 numbers = [1,2,3]
