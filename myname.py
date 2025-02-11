@@ -130,3 +130,8 @@ original_list = [1,2,3]
 copy_list = original_list = original_list[:]
 copy_list = list(original_list)
 print(copy_list)
+
+list1 = ["a","b", "3"]
+list2 =[1,2,3]
+list3 = list1 + list2
+print(list3)
