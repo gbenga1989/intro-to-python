@@ -123,3 +123,10 @@ numbers = [1,2,3]
 numbers.append(4)
 numbers.extend({6,7,8,9,10})
 print(numbers)
+
+
+original_list = [1,2,3]
+# copy_list = original_list.copy()
+copy_list = original_list = original_list[:]
+copy_list = list(original_list)
+print(copy_list)
