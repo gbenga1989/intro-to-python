@@ -135,3 +135,26 @@ list1 = ["a","b", "3"]
 list2 =[1,2,3]
 list3 = list1 + list2
 print(list3)
+
+list =[1,2,3,4,5]
+print(len(list))
+
+list =[1,2,3,4,5]
+print(max(list))
+
+list =[1,2,3,4,5]
+print(min(list))
+
+list =[1,2,3,4,5]
+print(sum(list))
+
+list =[1,4,2,3,5]
+print(sorted(list))
+
+list =[1,3,4,2,5]
+list.sort()
+print(list)
+
+list =[1,4,2,3,5]
+list.reverse()
+print(list.reverse())
