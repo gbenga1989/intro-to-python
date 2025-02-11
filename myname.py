@@ -157,4 +157,13 @@ print(list)
 
 list =[1,4,2,3,5]
 list.reverse()
-print(list.reverse())
+print(list)
+
+list =[1,4,2,3,5]
+print(list.index(2))
+
+
+matrix = [[1,2,3], [4,5,6], [7,8,9]]
+print(matrix[0][2])
+print(matrix[1][1])
+print(matrix[2][0])
