@@ -63,26 +63,26 @@
 # 6. car_name = "volvo"
 
 
-y = 2
-z = 5
-addition = z + y
-print(addition)
+# y = 2
+# z = 5
+# addition = z + y
+# print(addition)
 
-subtraction = 2 -2 
-print(subtraction)
+# subtraction = 2 -2 
+# print(subtraction)
 
-division = 2 / 2
-print(division)
+# division = 2 / 2
+# print(division)
 
-multiplication = 2 * 2
-print (multiplication)
+# multiplication = 2 * 2
+# print (multiplication)
 
 
-quotient = 2//2
-print(quotient)
+# quotient = 2//2
+# print(quotient)
 
-remainder = 2 % 2
-print(remainder)
+# remainder = 2 % 2
+# print(remainder)
 
 # To create a list without square bracket list()
 
@@ -189,14 +189,14 @@ print(remainder)
 # print(thisdict["year"])
 
 
-thisdict = {
-  "brand":"ford",
-  "model":"Mustang",
-  "year":"1967",
-  "year":"1467"
-}
+# thisdict = {
+#   "brand":"ford",
+#   "model":"Mustang",
+#   "year":"1967",
+#   "year":"1467"
+# }
 
-print(thisdict)
+# print(thisdict)
 
 thisdict = {
   "brand":"ford",
@@ -207,10 +207,10 @@ thisdict = {
 y = thisdict["year"]
 print(y)
 
-# using get method
+# # using get method
 
-y = thisdict.get("year")
-print(y)
+# y = thisdict.get("year")
+# print(y)
 
 
 thisdict = {
@@ -222,57 +222,90 @@ thisdict = {
 x=thisdict.keys()
 print(x)
 
-thisdict = {
-  "brand":"ford",
-  "model":"Mustang",
-  "year":"1967",
+# thisdict = {
+#   "brand":"ford",
+#   "model":"Mustang",
+#   "year":"1967",
+# }
+# thisdict["month"] =2018
+# print(thisdict)
+
+
+# thisdict = {
+#   "brand":"ford",
+#   "model":"Mustang",
+#   "year":"1967",
+# }
+# thisdict.update({"year":2020})
+# print(thisdict)
+
+
+# thisdict = {
+#   "brand":"ford",
+#   "model":"Mustang",
+#   "year":"1967",
+# }
+# thisdict.pop("model")
+# print(thisdict)
+
+
+# thisdict = {
+#   "brand":"ford",
+#   "model":"Mustang",
+#   "year":"1967",
+# }
+# thisdict.popitem()
+# print(thisdict)
+
+# #deleting an item 
+# thisdict = {
+#   "brand":"ford",
+#   "model":"Mustang",
+#   "year":"1967",
+# }
+
+# del thisdict["model"]
+# print(thisdict)
+
+# #deleting the whole dictionary
+# thisdict = {
+#   "brand":"ford",
+#   "model":"Mustang",
+#   "year":"1967",
+# }
+
+# del thisdict#
+# print(thisdict)
+
+
+# to copy using the dict keyword
+# thisdict = {
+#   "brand":"ford",
+#   "model":"Mustang",
+#   "year":"1967",
+# }
+# mydict = thisdict.copy()
+# print(mydict)
+
+
+# car = {
+#   "brand":"ford",
+#   "model":"mustang",
+#   "year":"1992"
+# }
+
+# x = car.setdefault("color","white")
+# print(x)
+
+# CREATING A PHONEBOOK
+phonebook = {
+  "beatrice": "09077933499",
+  "rotimi" : "0907700993",
+  "yinka": "08077933499",
+  "feranmi": "07077933499",
+  "favour": "04077933499"
 }
-thisdict["month"] =2018
-print(thisdict)
-
-
-thisdict = {
-  "brand":"ford",
-  "model":"Mustang",
-  "year":"1967",
-}
-thisdict.update({"year":2020})
-print(thisdict)
-
-
-thisdict = {
-  "brand":"ford",
-  "model":"Mustang",
-  "year":"1967",
-}
-thisdict.pop("model")
-print(thisdict)
-
-
-thisdict = {
-  "brand":"ford",
-  "model":"Mustang",
-  "year":"1967",
-}
-thisdict.popitem()
-print(thisdict)
-
-#deleting an item 
-thisdict = {
-  "brand":"ford",
-  "model":"Mustang",
-  "year":"1967",
-}
-
-del thisdict["model"]
-print(thisdict)
-
-#deleting the whole dictionary
-thisdict = {
-  "brand":"ford",
-  "model":"Mustang",
-  "year":"1967",
-}
-
-del thisdict#
-print(thisdict)
+print("i am calling",phonebook["rotimi"] )
+print(f"i am calling {phonebook['favour']}")
+x=list(phonebook.keys())
+print(x[2])
