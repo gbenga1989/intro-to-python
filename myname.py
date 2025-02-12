@@ -119,51 +119,95 @@ print(remainder)
 # print(numbers[::2]) (every secibd element)
 
 
-numbers = [1,2,3]
-numbers.append(4)
-numbers.extend({6,7,8,9,10})
-print(numbers)
+# numbers = [1,2,3]
+# numbers.append(4)
+# numbers.extend({6,7,8,9,10})
+# print(numbers)
 
 
-original_list = [1,2,3]
-# copy_list = original_list.copy()
-copy_list = original_list = original_list[:]
-copy_list = list(original_list)
-print(copy_list)
+# original_list = [1,2,3]
+# # copy_list = original_list.copy()
+# copy_list = original_list = original_list[:]
+# copy_list = list(original_list)
+# print(copy_list)
 
-list1 = ["a","b", "3"]
-list2 =[1,2,3]
-list3 = list1 + list2
-print(list3)
+# list1 = ["a","b", "3"]
+# list2 =[1,2,3]
+# list3 = list1 + list2
+# print(list3)
 
-list =[1,2,3,4,5]
-print(len(list))
+# list =[1,2,3,4,5]
+# print(len(list))
 
-list =[1,2,3,4,5]
-print(max(list))
+# list =[1,2,3,4,5]
+# print(max(list))
 
-list =[1,2,3,4,5]
-print(min(list))
+# list =[1,2,3,4,5]
+# print(min(list))
 
-list =[1,2,3,4,5]
-print(sum(list))
+# list =[1,2,3,4,5]
+# print(sum(list))
 
-list =[1,4,2,3,5]
-print(sorted(list))
+# list =[1,4,2,3,5]
+# print(sorted(list))
 
-list =[1,3,4,2,5]
-list.sort()
-print(list)
+# list =[1,3,4,2,5]
+# list.sort()
+# print(list)
 
-list =[1,4,2,3,5]
-list.reverse()
-print(list)
+# list =[1,4,2,3,5]
+# list.reverse()
+# print(list)
 
-list =[1,4,2,3,5]
-print(list.index(2))
+# list =[1,4,2,3,5]
+# print(list.index(2))
 
 
-matrix = [[1,2,3], [4,5,6], [7,8,9]]
-print(matrix[0][2])
-print(matrix[1][1])
-print(matrix[2][0])
+# matrix = [[1,2,3], [4,5,6], [7,8,9]]
+# print(matrix[0][2])
+# print(matrix[1][1])
+# print(matrix[2][0])
+
+
+# scores = [90, 89, 74, 34, 59, 87, 95, 80, 55, 78, 35, 90, 66, 24, 45, 67, 81, 60]
+
+# number_of_students = scores
+# print("the number of students is", len(number_of_students))
+# print("the highest score is",max(scores) )
+# print("the lowest score is ", min(scores) )
+# print(sorted(scores))
+# print(scores[:5])
+# average = sum(scores)/len(scores)
+# print(average)
+
+
+# thisdict = {
+#   "brand":"ford",
+#   "model":"Mustang",
+#   "year":"1967"
+# }
+# print(thisdict["year"])
+
+
+thisdict = {
+  "brand":"ford",
+  "model":"Mustang",
+  "year":"1967",
+  "year":"1467"
+}
+
+print(thisdict)
+
+thisdict = {
+  "brand":"ford",
+  "model":"Mustang",
+  "year":"1967",
+}
+
+y = thisdict["year"]
+print(y)
+
+# using get method
+
+y = thisdict.get("year")
+print(y)
