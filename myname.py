@@ -211,3 +211,68 @@ print(y)
 
 y = thisdict.get("year")
 print(y)
+
+
+thisdict = {
+  "brand":"ford",
+  "model":"Mustang",
+  "year":"1967",
+}
+
+x=thisdict.keys()
+print(x)
+
+thisdict = {
+  "brand":"ford",
+  "model":"Mustang",
+  "year":"1967",
+}
+thisdict["month"] =2018
+print(thisdict)
+
+
+thisdict = {
+  "brand":"ford",
+  "model":"Mustang",
+  "year":"1967",
+}
+thisdict.update({"year":2020})
+print(thisdict)
+
+
+thisdict = {
+  "brand":"ford",
+  "model":"Mustang",
+  "year":"1967",
+}
+thisdict.pop("model")
+print(thisdict)
+
+
+thisdict = {
+  "brand":"ford",
+  "model":"Mustang",
+  "year":"1967",
+}
+thisdict.popitem()
+print(thisdict)
+
+#deleting an item 
+thisdict = {
+  "brand":"ford",
+  "model":"Mustang",
+  "year":"1967",
+}
+
+del thisdict["model"]
+print(thisdict)
+
+#deleting the whole dictionary
+thisdict = {
+  "brand":"ford",
+  "model":"Mustang",
+  "year":"1967",
+}
+
+del thisdict#
+print(thisdict)
