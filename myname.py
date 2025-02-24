@@ -198,29 +198,29 @@
 
 # print(thisdict)
 
-thisdict = {
-  "brand":"ford",
-  "model":"Mustang",
-  "year":"1967",
-}
+# thisdict = {
+#   "brand":"ford",
+#   "model":"Mustang",
+#   "year":"1967",
+# }
 
-y = thisdict["year"]
-print(y)
-
-# # using get method
-
-# y = thisdict.get("year")
+# y = thisdict["year"]
 # print(y)
 
+# # # using get method
 
-thisdict = {
-  "brand":"ford",
-  "model":"Mustang",
-  "year":"1967",
-}
+# # y = thisdict.get("year")
+# # print(y)
 
-x=thisdict.keys()
-print(x)
+
+# thisdict = {
+#   "brand":"ford",
+#   "model":"Mustang",
+#   "year":"1967",
+# }
+
+# x=thisdict.keys()
+# print(x)
 
 # thisdict = {
 #   "brand":"ford",
@@ -298,14 +298,138 @@ print(x)
 # print(x)
 
 # CREATING A PHONEBOOK
-phonebook = {
-  "beatrice": "09077933499",
-  "rotimi" : "0907700993",
-  "yinka": "08077933499",
-  "feranmi": "07077933499",
-  "favour": "04077933499"
-}
-print("i am calling",phonebook["rotimi"] )
-print(f"i am calling {phonebook['favour']}")
-x=list(phonebook.keys())
-print(x[2])
+
+
+# phonebook = {
+#   "beatrice": "09077933499",
+#   "rotimi" : "0907700993",
+#   "yinka": "08077933499",
+#   "feranmi": "07077933499",
+#   "favour": "04077933499"
+# }
+# print("i am calling",phonebook["rotimi"] )
+# print(f"i am calling {phonebook['favour']}")
+# x=list(phonebook.keys())
+# print(x[2])
+
+
+# phonebook = {
+
+#   "person 1":{
+#   "Name": "beatrice",
+#   "Number": "09077933499",
+#   "Network": "mtn",
+#   "Address":"lugbe, abuja"
+#   },
+
+#   "person 2":{
+#   "Name": "rotimi",
+#   "Number": "09177933499",
+#   "Network": "9mobike",
+#   "Address":"almajiri, abuja"
+#   },
+  
+#   "person 3":{
+#   "Name": "steven",
+#   "Number": "050998866",
+#   "Network": "etisalat",
+#   "Address":"almajiri, abuja"
+#   }
+ 
+# }
+
+# print(f"i am calling {phonebook['person 3']["Number"]}")
+# print(list(phonebook.keys()))
+# keys = list(phonebook.keys())
+# print(keys[2]) 
+
+# age = 54
+# if age <24:
+#   print("you are young")
+ 
+# elif age > 24 and age < 54: 
+#   print("you are getting old")
+
+# else:
+#   print("you are old")
+
+# count = 30
+# if (count <= 30):
+#   if(count == 30):
+#     print("This is 30")
+
+#   else:
+#     print("this is not 30")
+
+# else:
+#   print("This is greate than 30")
+
+
+# money = 1000000
+# if money <900000:
+#   print("i am poor")
+
+# elif money > 900000 and money < 1000000: 
+#   print("i just dey there")
+
+# else:
+#   print("i am super rich")
+
+# A GRADING SYSTEM
+
+# scores_list = [30, 34, 45, 67, 78, 89, 90]
+
+# if(scores_list[0] >= 0 and scores_list[0] <=40):
+#   print("The student failed F")
+
+# elif( scores_list[1] >= 42 and scores_list[1] <=49):
+#   print("The student had a 0")
+
+# elif(scores_list[1] >= 51 and scores_list[1] <= 59):
+#   print('The student had a C')
+
+# elif(scores_list[1] >= 61 and scores_list[1] <= 69):
+#   print('The student had a B')
+
+# elif(scores_list[1] >= 71):
+#   print('The student had a A')
+
+# else:
+#   print("invalid student score")
+
+
+i = 0
+while i < 3:
+    print("the class has started")
+    i +=1
+
+
+count = 1
+while count < 6:
+  print(count)
+  if count == 3:
+    break
+  count += 1
+
+
+i =1
+while i < 6:
+  if i ==4:
+    i +=1
+    continue
+  print(i)
+  i +=1
+
+
+i = 0
+while i < 3:
+  print("the class has started")
+  i += 3
+
+else:
+  print("while loop ended")
+
+  i=200
+  while i <= 1000:
+    print(i)
+    i+=1
